@@ -1,3 +1,10 @@
-fun main() { println("Hello, World") }
-fun vivaMechMat() { println("Viva Mech-mat faculty!!!") }
-for (i in 1..10) { vivaMechMat() }
+def print_hello_world():
+    print("Hello, World")
+for i in range(10):
+    print_hello_world()
+
+def vivaMechMat():
+    print("Viva Mech-mat faculty!!!")
+vivaMechMat()
+
+
